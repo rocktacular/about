@@ -1,0 +1,20 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+h1 {
+  color: #666666;
+}
+p {
+  margin-top: 0;
+}
+section {
+  background-color: rosybrown;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
