@@ -1,20 +1,27 @@
 html {
   font-family: sans-serif;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  max-width: 600px;
 }
 h1 {
-  color: #666666;
 }
 p {
   margin-top: 0;
 }
 section {
-  background-color: rosybrown;
-  border-radius: 0.5rem;
+  background-color: lavender;
   padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
 }
